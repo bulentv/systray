@@ -626,7 +626,7 @@ func (t *winTray) addOrUpdateMenuItem(menuItemId uint32, parentId uint32, title 
 			return err
 		}
 		t.muMenuOf.Lock()
-		t.menuOf[menuItemId] = menu
+		// t.menuOf[menuItemId] = menu
 		t.muMenuOf.Unlock()
 	}
 
