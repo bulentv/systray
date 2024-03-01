@@ -1,4 +1,4 @@
-module fyne.io/systray
+module bulentv/systray
 
 go 1.19
 
